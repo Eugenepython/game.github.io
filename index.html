@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id = 'playerBtns'>
+        <button id = 'p1'  onClick="choosePlayer1()">Player 1</button> 
+        <button id = 'p2' onClick="choosePlayer2()">Player 2</button>
+        </div>
+        <div id = 'score'></div>
+        
+        <div id = 'dorH'>the Double or Half option
+        <button id= 'yesdorH' onClick='doubleorHalf()'>double/halve</button>
+        <button id= 'nodorH' onClick='noDoh()'>No</button>
+        </div>
+        
+        <div id = 'toZ'>The Triple or zero Option
+        <button id= 'yestoZ' onClick='tripleorZero()'>triple or zero?</button>
+        <button id= 'notoZ' onClick='notZ()'>No</button>
+        </div>
+        
+         <div id = 'addScore'>Add Dice Score or Double Dice Score or Nothing
+        <button id= 'doubleAddorZero' onClick='doubleAddorZero()'>Add zero or Add Double/</button>
+        <button id= 'justAdd' onClick='justAdd()'>Just add a dicescore</button>
+        </div>
+        <div id = 'thenextPlayer'><button onClick='nextPlayer()'>Next Player </button></div>
+        <div id = 'scoreToBeat'></div>
+        <script src="index.js"></script>
+    </body>
+</html>
